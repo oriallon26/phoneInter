@@ -464,10 +464,6 @@ button:active {
         top: 0px;
     }
 
-    .opBTN:hover span {
-        background-color: white;
-        color: black;
-    }
     /*הדיב של ההודעות*/
     #msg {
         height: 283px;
@@ -558,17 +554,17 @@ button:active {
         border: none;
         position: sticky;
         background-color: white;
-        font-size: larger;
+        font-size: 11pt;
         text-align: right;
         display: block;
         border-radius: 49px;
         margin-bottom: 10px;
     }
 
-        button:hover {
+        /*button:hover {
             background-color: #965b93;
             color: white;
-        }
+        }*/
 
     /*המספרים שעל הכפתורים*/
     .numSelector {
@@ -581,10 +577,10 @@ button:active {
         color: white;
     }
 
-    .numSelectorOnHover {
+    /*.numSelectorOnHover {
         background-color: white;
         color: black;
-    }
+    }*/
     /*הטקסט שעל הכפתורים*/
     .optionTXTclass {
         font-family: Assistant;
@@ -594,7 +590,7 @@ button:active {
         position: relative;
         display: inline-block;
         z-index: 2;
-        font-size: 14pt;
+        font-size: 11pt;
     }
 
     button:active {
